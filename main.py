@@ -101,6 +101,7 @@ plt.title('LinearRegression')
 plt.scatter(x,data)
 plt.plot(x,m_lr*x+b_lr,'r',label ='m: '+str(np.round(m_lr,3))+'\nb: '+str(np.round(b_lr,3)))
 plt.legend()
+plt.show()
 
 ### Calculate r_squared
 print('Numpy: ', r_squared(data, fit_poly))
